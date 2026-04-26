@@ -1,7 +1,6 @@
 # 🚗 Grupo Jaguar Timon - Landing Page
 
 Site institucional desenvolvido para o **Grupo Jaguar Timon**, uma loja multimarcas especializada em compra, venda, corretagem e financiamento de veículos.
-link: https://grupojaguar.netlify.app/
 ---
 
 ## 📌 Sobre o Projeto
