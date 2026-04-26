@@ -1,0 +1,80 @@
+.hero {
+  background-image: url('https://images.unsplash.com/photo-1600191762849-bf8fd13e9dc0?q=80&w=1920&auto=format&fit=crop');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  min-height: 85vh;
+  position: relative;
+}
+
+.hero::after {
+  content: "";
+  position: absolute;
+  inset: 0;
+  background: linear-gradient(
+    rgba(0,0,0,0.4),
+    rgba(0,0,0,0.6)
+  );
+}
+
+.hero div {
+  position: relative;
+  z-index: 2;
+}
+
+.card-clean {
+  background: #0f0f0f;
+  border: 1px solid #1f1f1f;
+  border-radius: 12px;
+  padding: 40px 20px;
+  text-align: center;
+  font-size: 18px;
+  font-weight: 600;
+  color: white;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+/* hover */
+.card-clean:hover {
+  transform: translateY(-6px);
+  border-color: white;
+  box-shadow: 0 10px 30px rgba(255,255,255,0.05);
+}
+
+.review {
+  flex: 1 1 250px;
+  max-width: 300px;
+  background: #111;
+  padding: 20px;
+  border-radius: 12px;
+  box-shadow: 0 4px 10px rgba(255,0,0,0.2);
+  font-style: italic;
+  transition: 0.3s;
+}
+
+.review span {
+  display: block;
+  margin-top: 10px;
+  font-weight: bold;
+  font-style: normal;
+  color: #ff4d4d;
+}
+
+.review:hover {
+  transform: translateY(-5px);
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  overflow-x: hidden;
+}
+
+@media (max-width: 768px) {
+  footer {
+    background-color: #000;
+  }
+}

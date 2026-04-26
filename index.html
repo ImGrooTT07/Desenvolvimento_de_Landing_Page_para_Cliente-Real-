@@ -1,0 +1,213 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Grupo Jaguar</title>
+
+  <script src="https://cdn.tailwindcss.com"></script>
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body class="bg-gray-950 text-white">
+
+  <!-- HEADER -->
+  <header class="flex flex-col md:flex-row justify-between items-center p-5 bg-black">
+    
+    <div class="flex items-center gap-3">
+  <img src="https://lh3.googleusercontent.com/zQew2k-kZNHNXuq22VznKQLIsA7XeYEAhLenRmZQY1Cqbv8ogSGQFgWayWZttPIW068YGA=s85" 
+  alt="Logo" class="h-16 w-16 md:h-20 md:w-20 rounded-full object-cover border-2 border-white-600 shadow-lg">
+</div>
+
+
+    <nav class="flex flex-col md:flex-row gap-4 mt-3 md:mt-0">
+  <a href="#servicos" class="hover:text-gray-400">Serviços</a>
+  <a href="#sobre" class="hover:text-gray-400">Sobre</a>
+  <a href="#contato" class="hover:text-gray-400">Contato</a>
+</nav>
+  </header>
+
+  <!-- HERO -->
+<section class="hero flex items-center justify-end px-6 md:px-16 text-right">
+  <div class="max-w-xl">
+    
+    <h1 class="text-2xl sm:text-3xl md:text-5xl font-bold mb-4 text-white">
+      Seu futuro te espera aqui. <br>
+      Venha para o Grupo Jaguar!
+    </h1>
+
+    <a href="#localizacao" 
+       class="inline-block border border-white px-5 py-2 md:px-6 md:py-3 rounded-lg text-white hover:bg-white hover:text-black transition">
+      Onde nos encontrar
+    </a>
+
+  </div>
+</section>
+
+  <!-- SERVIÇOS -->
+ <section id="servicos" class="px-4 md:px-10 py-10 bg-black">
+    <h2 class="text-3xl font-bold text-center mb-8">Nossos Serviços</h2>
+
+    <div class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-4 gap-6">
+
+  <div class="card-clean">Compra de carros</div>
+  <div class="card-clean">Venda de carros</div>
+  <div class="card-clean">Financiamento de carros</div>
+  <div class="card-clean">Aluguel de carros e imóveis</div>
+  
+</div>
+  </section>
+
+<!-- SOBRE NÓS -->
+<section id="sobre" class="py-20 px-6 bg-black text-white">
+  
+  <div class="max-w-6xl mx-auto grid md:grid-cols-2 gap-10 items-center">
+
+    <!-- TEXTO -->
+    <div>
+      <h2 class="text-3xl md:text-4xl font-bold mb-6">
+        Sobre o Grupo Jaguar
+      </h2>
+      <p class="text-gray-400 mb-4 leading-relaxed text-justify">
+        A empresa Jaguar foi fundada em 25 de julho de 2005, atuando no ramo de compra e venda de veículos na cidade de Teresina.
+         Ao longo dos anos, consolidou sua presença no mercado e expandiu suas atividades, sempre prezando pela
+          qualidade de seus serviços e pela satisfação de seus clientes.</p>
+
+        <p class="text-gray-400 mb-4 leading-relaxed text-justify">
+        Em dezembro de 2025, a empresa deu um importante passo em sua trajetória ao transferir sua sede para a cidade de Timon, 
+        passando a contar com instalações próprias. Nesse novo momento, ampliou seus serviços e fortaleceu sua atuação no setor, 
+        adotando a denominação de Grupo Jaguar, refletindo sua evolução e compromisso com a excelência.
+            </p>
+
+
+      <p class="text-gray-400 mb-4 leading-relaxed text-justify">
+        O Grupo Jaguar atua no mercado de veículos com foco em qualidade, confiança e transparência. 
+        Trabalhamos com compra, venda e financiamento de veículos e aluguel de carros e imóveis, oferecendo soluções completas 
+        para quem busca segurança na hora de negociar.
+      </p>
+
+      <p class="text-gray-400 mb-6 leading-relaxed text-justify">
+        Nosso compromisso é garantir a melhor experiência para nossos clientes, com atendimento ágil, 
+        veículos selecionados e as melhores condições do mercado.
+      </p>
+
+      <!-- DIFERENCIAIS -->
+      <div class="grid grid-cols-2 gap-4">
+        <div class="flex items-center gap-2">
+          <span class="text-red-500">✔</span>
+          <p class="text-sm">Atendimento rápido</p>
+        </div>
+
+        <div class="flex items-center gap-2">
+          <span class="text-red-500">✔</span>
+          <p class="text-sm">Veículos revisados</p>
+        </div>
+
+        <div class="flex items-center gap-2">
+          <span class="text-red-500">✔</span>
+          <p class="text-sm">Financiamento facilitado</p>
+        </div>
+
+        <div class="flex items-center gap-2">
+          <span class="text-red-500">✔</span>
+          <p class="text-sm">Negociação segura</p>
+        </div>
+      </div>
+    </div>
+
+    <!-- IMAGEM -->
+    <div class="flex justify-center">
+      <img 
+        src="https://images.unsplash.com/photo-1696861270495-7f35c35c3273?q=80&w=1170&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+        class="rounded-2xl shadow-lg object-cover w-full max-w-md"
+      >
+    </div>
+
+  </div>
+
+</section>
+
+<!-- LOCALIZAÇÃO -->
+<section id="localizacao" class="p-10 bg-gray-900 text-center">
+  <h2 class="text-3xl font-bold mb-6">Onde estamos</h2>
+
+  <p class="text-lg mb-2 text-gray-300">
+    📍 Av. Francisco Vitórino de Assunção, 1106
+  </p>
+
+  <p class="text-sm text-gray-400 mb-4">
+    Parque Piauí, Timon - MA, 65636-310
+  </p>
+
+  <div class="flex justify-center">
+    <iframe 
+      class="w-full md:w-2/3 h-72 rounded-xl shadow-lg border border-gray-700"
+      src="https://www.google.com/maps?q=Grupo+Jaguar+Timon+Av+Francisco+Vitorino+de+Assuncao+1106+Timon+MA&output=embed"
+      loading="lazy">
+    </iframe>
+  </div>
+
+  <div class="mt-6">
+    <a 
+      href="https://www.google.com/maps/search/?api=1&query=Grupo+Jaguar+Timon+Av+Francisco+Vitorino+de+Assuncao+1106+Timon+MA"
+      target="_blank"
+      class="border border-white px-6 py-3 rounded-lg hover:bg-white hover:text-black transition">
+        Abrir no Maps
+    </a>
+  </div>
+</section>
+
+
+  
+<!-- CONTATO -->
+<section id="contato" class="p-12 bg-black text-center">
+  
+  <h2 class="text-3xl md:text-4xl font-bold mb-6">
+    Contatos
+  </h2>
+
+  <p class="text-gray-400 mb-8">
+    Tire suas dúvidas ou fale conosco diretamente pelos nossos canais.
+  </p>
+
+  <!-- BOTÕES -->
+  <div class="flex flex-col sm:flex-row justify-center gap-4">
+
+    <!-- WHATSAPP -->
+    <a 
+      href="https://wa.me/5586999833879" 
+      target="_blank"
+      class="border border-white px-6 py-3 rounded-lg hover:bg-white hover:text-black transition"
+    >
+      WhatsApp
+    </a>
+
+    <!-- INSTAGRAM -->
+    <a 
+      href="https://www.instagram.com/grupo_jaguartimon/" 
+      target="_blank"
+      class="border border-white px-6 py-3 rounded-lg hover:bg-white hover:text-black transition"
+    >
+      Instagram
+    </a>
+
+  </div>
+
+  <!-- INFO EXTRA -->
+  <div class="mt-8 text-gray-500 text-sm">
+    Atendimento rápido • Redes oficiais
+  </div>
+
+</section>
+
+
+
+
+  <!-- FOOTER -->
+  <footer class="text-center p-5 bg-black text-white">
+    © 2026 Grupo JaguarTimon. Todos os direitos reservados.
+  </footer>
+
+</body>
+</html>
+
